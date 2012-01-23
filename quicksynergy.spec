@@ -1,12 +1,12 @@
 Summary:	Share keyboard and mouse between computers
 Name:		quicksynergy
-Version:	0.8.1
+Version:	0.9.0
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
-URL:		http://quicksynergy.sourceforge.net
+URL:		http://quicksynergy.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/quicksynergy/%{name}-%{version}.tar.gz
-# Source0-md5:	2f8b915dfcce7134eb10444217fb6d8d
+# Source0-md5:	94733808d65ef0daaa46284b97e55303
 Source1:	%{name}.desktop
 BuildRequires:	desktop-file-utils
 BuildRequires:	gettext
