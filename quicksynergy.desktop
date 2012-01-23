@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=QuickSynergy
+Comment=Share keyboard and mouse between computers
+Exec=quicksynergy
+Icon=qslogo
+Type=Application
+Terminal=false
+Categories=Network;
+
