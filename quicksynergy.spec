@@ -23,11 +23,7 @@ keyboard between two or more computers.
 %setup -q
 
 %build
-%configure \
-	SYNERGYS=%{_bindir}/synergys \
-	SYNERGYC=%{_bindir}/synergyc \
-	%{nil}
-
+%configure
 %{__make}
 
 %install
@@ -48,7 +44,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc ChangeLog COPYING AUTHORS README
+%doc ChangeLog AUTHORS README THANKS
 %attr(755,root,root) %{_bindir}/%{name}
 %{_pixmapsdir}/qslogo.png
 %{_desktopdir}/%{name}.desktop
